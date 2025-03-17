@@ -13,4 +13,6 @@ word = input("Anlamadığınız bir kelime yazın (hepsini büyük harflerle yaz
 if word in meme_dict.keys():
     print(meme_dict[word])
 else:
-    print("Bu kelime henüz sözlüğümüze eklenmedi")
+
+    print("Bu kelime yok")
+
